@@ -563,3 +563,20 @@ html.transition *:after {
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
+
+details {
+  background: hsla(153, 48%, 49%, .1);
+  padding: 1em;
+  border: 1px solid hsla(162, 76%, 32%, .3);
+  color: hsl(162, 76%, 32%);
+  border-radius: 5px;
+}
+
+details > p {
+  background: white;
+  padding: 0.5em 0.7em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px hsla(162, 76%, 32%, .2);
+  font-size: 1em;
+  margin-top: 1em;
+}
