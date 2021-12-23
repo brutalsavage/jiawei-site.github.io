@@ -8,8 +8,8 @@ profile:
   align: right
   image: avatar.jpg
   address: >
-    <p>Thomas M. Siebel Center</p>
-    <p>201 N Goodwin Ave</p>
+    <p>Thomas M. Siebel Center,</p>
+    <p>201 N Goodwin Ave,</p>
     <p>Urbana, IL 61801</p>
 
 news: false  # includes a list of news items
