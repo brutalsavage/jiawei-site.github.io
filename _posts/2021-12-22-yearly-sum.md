@@ -75,7 +75,7 @@ PhD第一学期结束，写点小作文纪念一下过去一年的生活。
 
 <figure>
 <center>
-<img src="gs-feicui-lake-stand.JPG" alt="gs-feicui-lake-stand" style="zoom:50%;" />
+<img src="gs-feicui-lake-stand.JPG" width="80%" height="80%" />
 <figcaption>甘楽在翡翠湖</figcaption>
 </center>
 </figure>
@@ -88,7 +88,7 @@ UIUC坐落在伊利诺伊州的一个小镇，属于美国的大农村。给我�
 
 <figure>
 <center>
-<img src="nopeople.jpg" width="60%" height="60%" />
+<img src="nopeople.jpg" width="80%" height="80%" />
 <figcaption>学校旁的bus station，空无一人</figcaption>
 </center>
 </figure>
