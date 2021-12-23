@@ -6,7 +6,7 @@ description: <b>Find my CV <a href="assets/pdf/jiawei_cv.pdf">here</a></b>.
 
 profile:
   align: right
-  image: avatar.png
+  image: avatar.jpg
   address: >
     <p>Thomas M. Siebel Center</p>
     <p>201 N Goodwin Ave</p>
