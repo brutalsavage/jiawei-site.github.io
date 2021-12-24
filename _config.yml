@@ -179,7 +179,7 @@ jekyll-archives:
 scholar:
 
   last_name: Liu
-  first_name: Jiawei
+  first_name: [Jiawei, Jiawei*]
 
   style: apa
   locale: en
