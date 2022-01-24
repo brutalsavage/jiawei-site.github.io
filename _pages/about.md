@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 description: <b>Find my CV <a href="assets/pdf/jiawei_cv.pdf">here</a></b>.
-
+subtitle: <a href='https://illinois.edu/'>UIUC</a> CS PhD Student.
 profile:
   align: right
   image: avatar.jpg
