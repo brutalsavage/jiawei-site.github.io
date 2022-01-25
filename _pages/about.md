@@ -23,4 +23,4 @@ At this moment, I mainly work in the intersection of **PLSE**, **Systems**, and 
 
 During my undergraduate study, I have been focusing on high-performance Machine Learning Systems (MLSys) research, including model serving, distributed training, ML-driven video analytics, and ML/RL for systems.
 
-Hit Counter: ![](https://visitor-badge.glitch.me/badge?page_id=ganler_page)
+Hit Counter: ![](https://visitor-badge.deta.dev/badge?page_id=ganler_page)
