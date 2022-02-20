@@ -81,7 +81,7 @@ Also, I'd like to quote a sentence from *Optimized C++* whose author seems to ha
 > 
 >This quote was attributed to Sutton as the answer to a reporter’s 1952 question, “*Why do you rob banks?*” Sutton later denied ever having said it.
 > 
->Except for the use of less-than-optimal algorithms, the naïve use of dynamically allocated variables is **the greatest performance killer in C++ programs**. Improving a program’s use of dynamically allocated variables is so often “*where the money is*” that a developer can be an effective optimizer knowing nothing other than how to reduce calls into the memory manager.
+>Except for the use of less-than-optimal algorithms, the naïve use of dynamically allocated variables is **the greatest performance killer in C++ programs**. Improving a program’s use of dynamically allocated variables is so often “*where the money is*” that a developer can be an effective optimizer knowing nothing other than how to reduce calls into the memory manager.
 
 But he also said:
 
