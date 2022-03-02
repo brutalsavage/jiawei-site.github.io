@@ -416,6 +416,7 @@ footer.sticky-bottom {
         height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
+          font-size: medium;
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
@@ -427,9 +428,17 @@ footer.sticky-bottom {
             }
           }
         }
-        .award {
+        .toappear {
+          display: inline-block;
+          background-color: rgb(95%, 90%, 95%);
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+        }
+        .award {
+          display: inline-block;
+          background-color: rgb(95%, 90%, 95%);
+          color: red !important;
+          border: 2px solid var(--global-theme-color);
         }
       }
       .title {
@@ -450,12 +459,13 @@ footer.sticky-bottom {
       }
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          color: var(--global-theme-color);
+          border: 1.5px solid var(--global-text-color);
+          font-size: x-small;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
