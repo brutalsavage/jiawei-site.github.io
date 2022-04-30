@@ -13,10 +13,19 @@
       {%- endif -%}
       {%- if entry.award %}
       <div class="badge award">{{entry.award}}</div>
-      {%- endif %}
-      {%- if entry.toappear %}
+      {%- endif -%}
+      {%- if entry.toappear -%}
       <div class="badge toappear">To Appear</div>
-      {%- endif %}
+      {%- endif -%}
+      {%- if entry.available -%}
+      <img src="/assets/img/availablev11.png" alt="Atifact Available" width="31%">
+      {%- endif -%}
+      {%- if entry.functional -%}
+      <img src="/assets/img/functionalv11.png" alt="Atifact Reusable" width="31%">
+      {%- endif -%}
+      {%- if entry.reusable -%}
+      <img src="/assets/img/reusablev11.png" alt="Atifact Reusable" width="31%">
+      {%- endif -%}
     </center>
   </div>
 
@@ -46,31 +55,42 @@
       {%- endfor -%}
       {%- endif -%}
 
+
+      {%- assign author_suffix = "" -%}
+      {%- if entry.equaltopk -%}
+      <!-- {%- if {{entry.equaltopk|int - forloop.index|int}} == 0 -%} -->
+      {%- assign topk = entry.equaltopk | plus: 0 -%}
+      {%- if topk >= forloop.index -%}
+      {%- assign author_suffix = '*' -%}
+      {%- endif -%}
+      {%- endif -%}
+      {%- endif -%}
+
       {%- if forloop.length == 1 -%}
       {%- if author_is_self %}
-      <em>{{author.first}} {{author.last}}</em>
+      <em>{{author.first}} {{author.last}}{{author_suffix}}</em>
       {%- else -%}
-      {{author.first}} {{author.last}}
+      {{author.first}} {{author.last}}{{author_suffix}}
       {%- endif -%}
       {%- else -%}
       {%- unless forloop.last -%}
       {% if author_is_self %}
-      <em>{{author.first}} {{author.last}}</em>,&nbsp;
+      <em>{{author.first}} {{author.last}}{{author_suffix}}</em>,&nbsp;
       {%- else -%}
       {% if coauthor_url -%}
-      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{{author_suffix}}</a>,&nbsp;
       {%- else -%}
-      {{author.first}} {{author.last}},&nbsp;
+      {{author.first}} {{author.last}}{{author_suffix}},&nbsp;
       {%- endif -%}
       {%- endif -%}
       {%- else -%}
       {% if author_is_self -%}
-      and <em>{{author.first}} {{author.last}}</em>
+      and <em>{{author.first}} {{author.last}}{{author_suffix}}</em>
       {% else -%}
       {%- if coauthor_url -%}
-      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{{author_suffix}}</a>
       {% else -%}
-      and {{author.first}} {{author.last}}
+      and {{author.first}} {{author.last}}{{author_suffix}}
       {%- endif -%}
       {%- endif -%}
       {%- endunless -%}
@@ -100,6 +120,9 @@
     <div class="links">
       {%- if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      {%- endif %}
+      {%- if entry.doi %}
+      <a href="https://dl.acm.org/doi/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {%- endif %}
       {%- if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
