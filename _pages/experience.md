@@ -6,6 +6,14 @@ description: Working and research experience since undergrad.
 nav: true
 ---
 
+#### OctoML
+
+<p style="text-align:left;">
+Research Intern
+<span style="float:right;">
+    WFH | May 2022 - Aug. 2022
+</span>
+</p>
 
 #### PL/FM/SE Group of UIUC
 
@@ -30,7 +38,7 @@ Research Intern
 <p style="text-align:left;">
 Research Intern
 <span style="float:right;">
-    Remote | Aug. 2020 - Mar. 2021
+    WFH | Aug. 2020 - Mar. 2021
 </span>
 </p>
 
