@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 profile:
   align: right
-  image: avatar-2022.jpg
+  image: semiahmoo.jpeg
   address:
 
 news: true  # includes a list of news items
