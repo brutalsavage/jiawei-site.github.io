@@ -9,25 +9,25 @@ nav: true
 #### OctoML
 
 <p style="text-align:left;">
-Research Intern
+Intern
 <span style="float:right;">
-    WFH | May 2022 - Aug. 2022
+    WFH | May - Aug. 2022
 </span>
 </p>
 
-#### PL/FM/SE Group of UIUC
+#### UIUC PLFMSE Group
 
 <p style="text-align:left;">
-Research Assistant / PhD Student
+PhD Student
 <span style="float:right;">
-    Urbana, IL, US | Aug. 2021 - Present
+    Urbana, US | Aug. 2021 - Present
 </span>
 </p>
 
 #### Alibaba DAMO Academy
 
 <p style="text-align:left;">
-Research Intern
+Intern
 <span style="float:right;">
     Shanghai, China | Mar. - Aug. 2021
 </span>
@@ -36,16 +36,16 @@ Research Intern
 #### NYU System Group
 
 <p style="text-align:left;">
-Research Intern
+Intern
 <span style="float:right;">
     WFH | Aug. 2020 - Mar. 2021
 </span>
 </p>
 
-#### HyperPlane Lab of PKU
+#### PKU HyperPlane Lab
 
 <p style="text-align:left;">
-Research Intern (part-time)
+Intern
 <span style="float:right;">
     Beijing, China | Jan. 2020 - Jun. 2021
 </span>
@@ -54,7 +54,7 @@ Research Intern (part-time)
 #### ByteDance AI Lab
 
 <p style="text-align:left;">
-Software Engineering Intern
+Intern
 <span style="float:right;">
     Beijing, China | Feb. - Jul. 2020
 </span>
