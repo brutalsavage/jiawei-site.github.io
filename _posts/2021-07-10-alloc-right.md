@@ -2,6 +2,7 @@
 layout: post
 title:  "Allocate Stuff in the Right Way"
 date:   2021-07-10 00:07:12 +0800
+tags: optimization C++
 categories: blog
 layout: post
 ---
@@ -61,7 +62,7 @@ main:
 To help you read the assembly, let's quickly review some important X86 registers:
 
 - `%rax`: return value. We move the value `55555555` to `rax` which was previously set by the call `operator new`, and then we put the value of `rax` to `[rbp - 8]`
-- `%rbp`: the start address of current stack (the base pointer for `rsp` (the stack pointer)). `[rbp - 8]` is where `ptr_to_dynamic_var` lives (in 64bit mode, pointers are of 8 bytes) and `[rbp - 12]` (12 = 8 + 4) is where `stack_var` lives. Make a lot more sense right? 
+- `%rbp`: the start address of current stack (the base pointer for `rsp` (the stack pointer)). `[rbp - 8]` is where `ptr_to_dynamic_var` lives (in 64bit mode, pointers are of 8 bytes) and `[rbp - 12]` (12 = 8 + 4) is where `stack_var` lives. Make a lot more sense right?
 
 ### Some intuitive analysis
 
@@ -75,12 +76,12 @@ In a word, dynamic memory is guilty and we should try our best to prevent it if 
 
 Also, I'd like to quote a sentence from *Optimized C++* whose author seems to hate dynamic memory way more than me:
 
-> > *That’s where the money is.* 
+> > *That’s where the money is.*
 > >
-> > —Bank robber Willie Sutton (1901–1980) 
-> 
+> > —Bank robber Willie Sutton (1901–1980)
+>
 >This quote was attributed to Sutton as the answer to a reporter’s 1952 question, “*Why do you rob banks?*” Sutton later denied ever having said it.
-> 
+>
 >Except for the use of less-than-optimal algorithms, the naïve use of dynamically allocated variables is **the greatest performance killer in C++ programs**. Improving a program’s use of dynamically allocated variables is so often “*where the money is*” that a developer can be an effective optimizer knowing nothing other than how to reduce calls into the memory manager.
 
 But he also said:
@@ -139,10 +140,10 @@ int main() {
         small_vec.push_back(i);
     }
     assert(small_vec.size() == 10);
-    return sizeof(small_vec); 
-    // 56 = sizeof(ptr) + sizeof(size) + sizeof(capacity) + 8 * sizeof(int) 
+    return sizeof(small_vec);
+    // 56 = sizeof(ptr) + sizeof(size) + sizeof(capacity) + 8 * sizeof(int)
     //    = 8           + 8            + 8                + 8 * 4
-} 
+}
 ```
 
 Looks quite like a vector right? In fact, a small vector like `small_vector<int, 8>` is consist of:
@@ -253,11 +254,11 @@ The results:
 
 ```text
 Dataset size distribution:
-5	9	10	5	10	5	6	10	5	5	6	2	6	4	8	8	4	12	13	5	
-4	13	14	5	10	11	0	10	13	3	16	5	4	3	10	6	3	18	6	13	
-5	16	14	25	1	10	3	7	7	14	9	11	12	7	14	7	9	4	8	5	
-8	4	9	8	7	19	7	11	6	7	2	2	9	7	4	8	4	8	7	4	
-8	3	7	14	2	6	8	4	5	3	8	6	7	2	9	7	8	9	7	14	
+5	9	10	5	10	5	6	10	5	5	6	2	6	4	8	8	4	12	13	5
+4	13	14	5	10	11	0	10	13	3	16	5	4	3	10	6	3	18	6	13
+5	16	14	25	1	10	3	7	7	14	9	11	12	7	14	7	9	4	8	5
+8	4	9	8	7	19	7	11	6	7	2	2	9	7	4	8	4	8	7	4
+8	3	7	14	2	6	8	4	5	3	8	6	7	2	9	7	8	9	7	14
 2021-07-10T14:33:01+08:00
 Running /Users/ganler-mac/CLionProjects/PlayBoost/cmake-build-release/PlayBoost
 Run on (8 X 2200 MHz CPU s)
