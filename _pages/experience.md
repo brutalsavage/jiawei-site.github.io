@@ -3,7 +3,7 @@ layout: page
 permalink: /experience/
 title: Experience
 description: Working and research experience since undergrad.
-nav: true
+nav: false
 ---
 
 #### OctoML
