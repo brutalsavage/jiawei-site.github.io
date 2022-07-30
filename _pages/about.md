@@ -17,7 +17,10 @@ rest: true
 
 I am a CS PhD student at [UIUC](https://illinois.edu/) advised by [Lingming Zhang](http://lingming.cs.illinois.edu/) since 2021 Fall.
 
-My primary research goal is to make future software infrastructures: **easy-to-use**, **high-performance** and **reliable**.
-At present, I am developing **PLSE** techniques to make **ML Systems** reliable and efficient.
+My primary research goal is to make infrastructure software: **easy-to-use**, **fast** and **reliable**.
+I am generally interested in performance, reliability and programmability in computer systems, esp. ML systems.
 
-🤗 **Open to collaborate!** We should chat if you are also interested in fuzzing and building ML Systems!
+Specifically, I am interested in everything related to machine learning compilation such as MLIR and TVM.
+I am currently building a extensible fuzzer to test any DL framework/compiler with synthesized random yet valid DNNs.
+
+🤗 Feel free to drop me an email if we share common research interest.
