@@ -23,4 +23,4 @@ I am generally interested in performance, reliability and programmability in com
 Specifically, I am interested in everything related to machine learning compilation such as MLIR and TVM.
 I am currently building a extensible fuzzer to test any DL framework/compiler with synthesized random yet valid DNNs.
 
-🤗 Feel free to drop me an email if we share common research interest.
+🤗 Feel free to drop me an [email](mailto:jiawei6@illinois.edu) if we share common research interest.
