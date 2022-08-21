@@ -1,0 +1,14 @@
+name: Update UIUC Page
+on: [push]
+jobs:
+    build:
+        name: web.illinois.edu
+        runs-on: ubuntu-latest
+        steps:
+        - name: trigger web page sync
+          uses: appleboy/ssh-action@master
+          with:
+            host: ${{ secrets.HOST }}
+            username: ${{ secrets.USERNAME }}
+            key: ${{ secrets.SSH_PRIVATE_KEY }}
+            script: bash /home/jiaweiliu/update.sh
