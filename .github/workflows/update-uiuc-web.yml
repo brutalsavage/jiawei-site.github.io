@@ -1,5 +1,9 @@
 name: Update UIUC Page
-on: [push]
+on:
+    workflow_run:
+        workflows: ["deploy"]
+        types:
+          - completed
 jobs:
     build:
         name: web.illinois.edu
@@ -12,3 +16,4 @@ jobs:
             username: ${{ secrets.USERNAME }}
             key: ${{ secrets.SSH_PRIVATE_KEY }}
             script: bash /home/jiaweiliu/update.sh
+
