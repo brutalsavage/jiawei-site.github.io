@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Allocate Stuff in the Right Way"
+title:  "Memory allocation made right"
 date:   2021-07-10 00:07:12 +0800
-tags: optimization C++
+tags: optimization cxx
 categories: blog
 layout: post
 ---
