@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 profile:
   align: right
-  image: semiahmoo.jpeg
+  image: avatar.jpg
   image_cicular: false # crops the image to make it circular
   address:
 
@@ -17,10 +17,9 @@ rest: true
 
 I am a CS PhD student at [UIUC](https://illinois.edu/) advised by [Lingming Zhang](http://lingming.cs.illinois.edu/) since 2021 Fall.
 
-My primary research goal is to make infrastructure software: **easy-to-use**, **fast** and **reliable**.
-I am generally interested in performance, reliability and programmability in computer systems, esp. ML systems.
+My research goal is to make software systems: **easy-to-use**, **fast** and **reliable** by improving their **programmability**, **performance** and **reliability**.
 
-Specifically, I am interested in everything related to machine learning compilation such as MLIR and TVM.
-I am currently building a extensible fuzzer to test any DL framework/compiler with synthesized random yet valid DNNs.
+Recently I am working on automating the validation of deep learning toolchains with DNN synthesis and reduction.
+More generally, I am interested in program analysis/optimization, verification/validation and machine learning techniques.
 
 🤗 Feel free to drop me an [email](mailto:jiawei6@illinois.edu) if we share common research interest.
