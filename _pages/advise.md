@@ -26,9 +26,9 @@ I take mentorship very seriously; therefore, instead of simply assigning tasks, 
 To know my research, check out my [papers](https://jiawei-site.github.io/publications)/[blogs](https://jiawei-site.github.io/blog/) and [GitHub](https://github.com/ganler).
 To get a sense of my working style, feel free to reach out to my collaborators or anyone that knows me.
 In general, I like carefully design and build *cool* and *elegant* tools for *solving real-world problems*. 
-Therefore, if you are not excited about code details, I am sure you will get bored working with me.
-I am also self-motivated and thus working eagerly on my research.
+Therefore, if you don't appreciate *engineering efforts* and *making clean code*, you are likely to get bored working with me.
 
 There are *ofc* a few **constraints** to consider: 
 I can only take on 1-2 students at a time in order to maintain the quality of mentorship. 
 Additionally, fluent English speaking/writing are necessary for effective communication.
+
