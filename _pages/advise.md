@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /advise/
+permalink: /mentor/
 title: Mentoring
 description:
 nav: true
@@ -8,9 +8,9 @@ nav: true
 
 I have been fortunate to work with awesome undergrad/master students and grow together with them:
 
-- [Jinjun Peng](https://co1in.me/) (Fall 2022) <span style="float:right">Tsinghua $$\to$$ **Applying PhD programs. Admit him!**</span>
-- [Sen Yang](https://github.com/syang-ng) (Smr 2021) <span style="float:right">Fudan $$\to$$ Yale PhD</span>
-- [Yuxiang Wei](https://yuxiang.cs.illinois.edu/) (Smr 2021) <span style="float:right">Tongji $$\to$$ UIUC PhD</span>
+- [Jinjun Peng](https://co1in.me/) (Fall'22)<span style="float:right">Tsinghua $$\to$$ **On PhD App. Admit him!**</span>
+- [Sen Yang](https://github.com/syang-ng) (Smr'21)<span style="float:right">Fudan $$\to$$ Yale PhD</span>
+- [Yuxiang Wei](https://yuxiang.cs.illinois.edu/) (Smr'21)<span style="float:right">Tongji $$\to$$ UIUC PhD</span>
 
 **Working with me: How and Why?** 
 I am open to collaborating with undergrad students on cool research projects.
