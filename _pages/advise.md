@@ -19,7 +19,7 @@ The best way to work with me is to email me w/ your CV and (if you are not at UI
 I take mentorship very seriously; therefore, instead of simply assigning tasks, I will be working closely with you on things including but not limited to:
 
 - Research and presentation.
-- Coding like a “22-century” geek (i.e., coding style, CI/CD, etc.).
+- Modernized (open-source) software development skills.
 - Knowledge in programming languages, formal methods, compilers, systems, machine learning, etc.
 - Helping you apply PhD program as if it's mine.
 
