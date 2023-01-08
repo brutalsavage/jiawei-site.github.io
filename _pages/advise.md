@@ -8,6 +8,7 @@ nav: true
 
 I have been fortunate to work with awesome undergrad/master students and grow together with them:
 
+- [Yuyao Wang](https://kristoff-starling.github.io/) (Fall'22)<span style="float:right">Junior at Nanjing U</span>
 - [Jinjun Peng](https://co1in.me/) (Fall'22)<span style="float:right">Tsinghua $$\to$$ **On PhD App. Admit him!**</span>
 - [Sen Yang](https://github.com/syang-ng) (Smr'21)<span style="float:right">Fudan $$\to$$ Yale PhD</span>
 - [Yuxiang Wei](https://yuxiang.cs.illinois.edu/) (Smr'21)<span style="float:right">Tongji $$\to$$ UIUC PhD</span>
