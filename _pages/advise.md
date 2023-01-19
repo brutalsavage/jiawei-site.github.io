@@ -3,13 +3,13 @@ layout: page
 permalink: /mentor/
 title: Mentoring
 description:
-nav: true
+nav: false
 ---
 
 I have been fortunate to work with awesome undergrad/master students and grow together with them:
 
-- [Yuyao Wang](https://kristoff-starling.github.io/) (Fall'22)<span style="float:right">Junior@NanjingU</span>
-- [Jinjun Peng](https://co1in.me/) (Fall'22)<span style="float:right">Senior@TsinghuaU</span>
+- [Yuyao Wang](https://kristoff-starling.github.io/) (Fall'22)<span style="float:right">Junior@NJU</span>
+- [Jinjun Peng](https://co1in.me/) (Fall'22)<span style="float:right">Senior@Tsinghua</span>
 - [Sen Yang](https://github.com/syang-ng) (Smr'21)<span style="float:right">Fudan $$\to$$ Yale PhD</span>
 - [Yuxiang Wei](https://yuxiang.cs.illinois.edu/) (Smr'21)<span style="float:right">Tongji $$\to$$ UIUC PhD</span>
 
