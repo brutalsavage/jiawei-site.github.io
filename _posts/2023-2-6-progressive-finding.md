@@ -141,10 +141,10 @@ IMHO, the most important "number" for evaluating bug finding is the **number of 
 Because (i) it measures the real-world impact / consequence of the technique; and (ii) the metric is very well defined (other ones may have various interpretations).
 For example, papers in the hall of fame, such as EMI and YarpGen, have a fixing rate of around 60~70%.
 To learn from those award-winning work, we want to make our testers to focus on bugs that are likely to fit developers' interest.
-According to my experience in DL communities[^exp], there are a few general patterns of reports I found appealing:
+According to my experience in DL communities[^exp], there are a few patterns of reports I found appealing:
 
 1. **Emerging components:** The DL systems are ever emerging. For example, both PT2 and TF3 are targeting better support of compilation and distributed computing. Reports on these topics are likely to get more attention and are more important in terms of real-world impact (reports on them speed up the stablization of such components so they can be used out of fear more timely).
-2. **Easy-to-fix bugs:** Some bugs can get immediately fixed when the developer found it easy to fix. For example, some invalid usages of APIs crash the program due to lack of input checking, they get fixed quickly as the fixes can just be adding more checkers for prevent such ill-formed conditions.
+2. **Easy-to-fix bugs:** Some bugs can get immediately fixed when the developer found it easy to fix. For example, some crash bugs from invalid API usages (due to lack of input checking), get fixed quickly as the fixes can just be adding more checkers for prevent such ill-formed conditions.
 
 ## S3: Random
 
@@ -169,7 +169,7 @@ It is possible that fuzzing bugs are not prioritized for not being user-facing o
 Oftentimes developers in DL communities are very busy and may not have time to fix non-user-facing bugs.
 In such cases, reporters are often asked "any PRs are welcome" (or "patches are welcome").
 Sometimes, such bugs might not be that hard to fix: according to my experience in TVM, 
-some bugs, say the integer mismatches, can be easily fixed in a few minutes as they need a casting[^cast].
+some bugs, say the integer mismatches, can be easily fixed in a few minutes as they just need a casting[^cast].
 This point is also suggested in Regehr's article[^regehr].
 
 
