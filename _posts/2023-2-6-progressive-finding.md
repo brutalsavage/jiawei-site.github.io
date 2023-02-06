@@ -23,9 +23,9 @@ While I still strongly recommend everyone to read it, in this article I also wan
 
 In addition to some cliche, such as **reproducibility**, **using an issue template** and **pasting the log**, there are more to consider:
 
-1. **Minimization**: test-case reduction papers[^creduce] tell us that a small bug report is easier for diagnosis. This is very important: making bugs easier to investigate improves the chances of letting developers fix it timely.
-2. **Mutation**: mutate your test-cases and observe if the bug still manifests themselves -- *same*: giving developers more context about your bugs improves the chance of be fixed instantly.
-3. **Cleaness**: to optimize Signal-to-Noise ratio, if some logs or environments are too long, we can use this HTML template to make it foldable:
+1. **Minimization**: Test-case reduction papers[^creduce] tell us that a small bug report is easier for diagnosis. This is very important: making bugs easier to investigate improves the chances of letting developers fix it timely.
+2. **Mutation**: Mutate your test-cases and observe if the bug still manifests themselves -- giving developers more improves the chance of instant fixes.
+3. **Cleaness**: For example, to optimize Signal-to-Noise ratio, if some logs or environment stuffs are too long, we can use the HTML template below to make it foldable:
 
 ```html
 <details><summary><i>Click to expand.</i></summary>
