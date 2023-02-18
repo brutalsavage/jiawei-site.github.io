@@ -9,13 +9,15 @@ layout: post
 
 ## Motivation
 
-I build tools to catch bugs in Deep-Learning (DL) toolchains, in order to facilitate the user experience, safety and performance.
-To empirically evaluate the usefulness techniques, I report the bugs that my testers found to the open-source (e.g., GitHub Issues) and ask for validation from the developers.
-Getting more bugs being fixed makes me feel good: (i) my research is "saving the world"; and (ii) my paper looks stronger.
-As my testers find more and more bugs, it is important for me to properly and effectively report these bugs so that I can make sure that I am not wasting time spamming the issue tracker which might eventually made me "blacklisted" by losing my credits in open-source and academia.
+I build tools to catch bugs in Deep-Learning (DL) toolchains, with the goal of improving user experience, safety, and performance.
+To assess the effectiveness of these techniques, I report the bugs that my testers found to the open-source repositories like GitHub Issues, and seek validation from developers to confirm that the bugs are legitimate.
+Finding bugs and see them being fixed is rewarding because it helps me fulfill my research objective of making the world a better place.
+Additionally, it strengthens my research paper.
+As my testers identify more bugs, it's essential that I report them accurately and effectively.
+This ensures that I don't waste time spamming the issue tracker and potentially get blacklisted, which could harm my "reputation" in the open-source and academic communities.
 
-I started to pay more attention in reporting bugs after reading John Regehr's article[^regehr] (*"Responsible and Effective Bugfinding"*) a year ago.
-While I still strongly recommend everyone to read it, in this article I also want to compile a list of "yeas and nays" from my own, from a more technical perspective, either general or specific to the DL community.
+One year ago, I read John Regehr's "Responsible and Effective Bugfinding" article[^regehr], which motivated me to improve my bug reporting.
+While I still highly recommend reading it, I want to provide a technical perspective on the topic, with a particular focus on DL. In this article, I will list both the do's and don'ts of bug reporting, drawing from my own experience.
 
 ## S1: Compile good reports
 
@@ -168,7 +170,7 @@ It is possible that fuzzing bugs are not prioritized for not being user-facing o
 **Patch it if you can.**
 Oftentimes developers in DL communities are very busy and may not have time to fix non-user-facing bugs.
 In such cases, reporters are often asked "any PRs are welcome" (or "patches are welcome").
-Sometimes, such bugs might not be that hard to fix: according to my experience in TVM, 
+Sometimes, such bugs might not be that hard to fix: according to my experience in TVM,
 some bugs, say the integer mismatches, can be easily fixed in a few minutes as they just need a casting[^cast].
 This point is also suggested in Regehr's article[^regehr].
 
