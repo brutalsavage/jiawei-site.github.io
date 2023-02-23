@@ -19,7 +19,6 @@ I am a CS PhD student at [UIUC](https://illinois.edu/) advised by [Lingming Zhan
 
 My research goal is to make software systems: **easy-to-use**, **fast** and **reliable** by improving their **programmability**, **performance** and **reliability**.
 
-Recently I am working on automating the validation of deep learning toolchains with DNN synthesis and reduction.
-More generally, I am interested in program analysis/optimization, verification/validation and machine learning techniques.
+Take a look at [NNSmith](https://github.com/ise-uiuc/nnsmith), our recently released DNN synthesizer for *automatically* validating DL systems (esp. compilers).
 
-🤗 Feel free to drop me an [email](mailto:jiawei6@illinois.edu) if we share common research interest.
+🤗 Feel free to drop me an [email](mailto:jiawei6@illinois.edu) if you are interested in my research.
