@@ -17,7 +17,8 @@ rest: true
 
 I am a CS PhD student at [UIUC](https://illinois.edu/) advised by [Lingming Zhang](http://lingming.cs.illinois.edu/) since 2021 Fall.
 
-My research goal is to make software systems: **easy-to-use**, **fast** and **reliable** by improving their **programmability**, **performance** and **reliability**.
+I am interested in programming systems and deep learning.
+My research goal is to make software systems: easy-to-use, fast and reliable by improving their **programmability**, **performance** and **reliability**.
 
 Take a look at [NNSmith](https://github.com/ise-uiuc/nnsmith), our recently released DNN synthesizer for *automatically* validating DL systems (esp. compilers).
 
