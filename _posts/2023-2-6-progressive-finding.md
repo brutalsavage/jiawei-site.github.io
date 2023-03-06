@@ -159,7 +159,7 @@ pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cpu
 ```
 
 When reporting bugs, we should also check if they are reproducible on the latest versions.
-It is not recommended (strongly, IMHO) to *intentially* report out-dated bugs just for letting the developers confirm these bugs so that the number of "confirmed" bugs in the paper looks "better", given that it is a distractive to the communities.
+It is **not** recommended IMHO to *intentially* report out-dated bugs just for letting the developers confirm these bugs so that the number of "confirmed" bugs in the paper looks "better", given that it is distractive & unhelpful to the communities (so we should work on new bugs! or alternatively evaluate over a offline dataset of old bugs without bothering the community -- many maintainers are super busy and some of them are even contributing "for free").
 
 **Responsible.**
 More importantly, since the preference of communities can vary, it is important to get feedbacks after some reports, via either communication or "inference" (say have any of your first *N* reports been fixed?).

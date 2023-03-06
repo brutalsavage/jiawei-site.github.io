@@ -4,5 +4,5 @@ date: 2023-2-12
 inline: true
 ---
 
-Travel Award from ASPLOS and UIUC! Will present [NNSmith](https://github.com/ise-uiuc/nnsmith) at ASPLOS. See you in Vancouver!
+I will present [NNSmith](https://github.com/ise-uiuc/nnsmith) at ASPLOS (supported by ASPLOS & UIUC). See you in Vancouver!
 
