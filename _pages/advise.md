@@ -28,12 +28,9 @@ I take mentorship seriously; therefore, instead of simply assigning tasks, I wil
 
 To know my work, check my [papers](https://jiawei-site.github.io/publications)/[blogs](https://jiawei-site.github.io/blog/) and [GitHub](https://github.com/ganler).
 To get a sense of my work style, feel free to reach out to previous mentees.
-In general, my research style is either **go solid or go big**: (i) carefully design and build *elegant* tools for *solving real-world problems* with *guarantee*;
-or (ii) exploring the *cutting-edge* problems to make *impossibles more possible*.
-
-There are of course a few **constraints** to consider:
-I only take 2 students *max* at a time for mentorship quality.
-Additionally, fluent English speaking is necessary for effective communication.
+There are a few **constraints** to consider:
+Due to availability, I only mentor a few (typically 2) students at the same time.
+In addition, fluent English speaking is necessary for effective communication.
 </div>
 
 </div>
