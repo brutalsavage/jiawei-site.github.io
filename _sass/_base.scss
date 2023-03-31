@@ -94,7 +94,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
-  width: 100%;
+  width: 40%;
 
   .address {
     margin-bottom: 5px;
@@ -465,7 +465,7 @@ footer.sticky-bottom {
         max-width: 200px;
       }
       .abbr {
-        height: 2rem;
+        height: calc(100% / 4);
         margin-bottom: 0.5rem;
         .artifact{
           max-width: 2.7rem;
@@ -491,12 +491,17 @@ footer.sticky-bottom {
           background-color: rgb(95%, 90%, 95%);
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          margin-top: 0.1rem;
+          margin-bottom: 0.1rem;
         }
         .award {
+          font-size: medium;
           display: inline-block;
           background-color: rgb(95%, 90%, 95%);
           color: red !important;
           border: 2px solid var(--global-theme-color);
+          margin-top: 0.1rem;
+          margin-bottom: 0.1rem;
         }
       }
       .title {
