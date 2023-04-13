@@ -12,7 +12,7 @@ nav: true
 4. "System is art, not science." I like simplify system design and make things clean.
 5. Ich kan Deutsch sprechen aber nur ein bischen.
 6. My Chinese name is 刘佳伟.
-7. Take a look at [Steven's homepage](https://steven-site.github.io/)! The super star of our group is working on cool LLM-for-code projects!
+7. [Fake](https://steven-site.github.io/)!
 
 ## Quotes
 
